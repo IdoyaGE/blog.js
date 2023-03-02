@@ -1,0 +1,60 @@
+
+/*CSS GENERAL: Google font Monserrat para todos los elementos y color de papeleras*/
+head, body{
+    font-family: 'Montserrat', sans-serif;
+}
+.fa-trash{
+    color:red;
+}
+/*SECCION LISTA DE LA COMPRA: posición a la derecha con float, márgenes a los dos lados y fuente del botón Monserrat*/
+#seccion_lista{
+    float: right;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.important {
+    background-color: green;
+    text-emphasis: bold;
+    color: #f8f8f8;
+    text-align: center;
+}
+button#guardar{
+    font-family: 'Montserrat', sans-serif;
+}
+/*SECCION BLOG*/
+#seccion_blog{
+    margin-right: 0%;
+}
+fieldset{
+    background-size: cover; /* ajusta el tamaño de la imagen al contenedor */
+    background-position: center; /* posiciona la imagen en el centro */
+} 
+input[type=text] {
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#lista{
+    border: 1px solid#000;
+    }
+button#crear{
+    font-family: 'Montserrat', sans-serif;
+}
+textarea#contenido{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin-top: 5%;
+}
+
+
+    
