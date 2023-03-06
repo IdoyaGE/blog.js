@@ -1,0 +1,103 @@
+
+/*CSS GENERAL: Google font Monserrat para todos los elementos y color de papeleras*/
+head, body{
+  font-family: 'Montserrat', sans-serif;
+}
+.fa-trash{
+  color:red;
+}
+/*SECCION LISTA DE LA COMPRA: posición a la izquierda con float, márgenes a los dos lados y fuente del botón Monserrat*/
+#seccionLista{
+  float: right;
+  width: 25%;
+  padding: 10px;
+  height: 300px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+
+}
+#seccionLista, h1 {
+  background-color: rgb(135, 186, 135);
+  text-emphasis: bold;
+  color: #f8f8f8;
+  text-align: left;
+  border-radius: 1%;
+  
+ 
+}
+button#guardar{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.important {/*le pongo en verde oscuro y lo centro para distinguir los productos importantes de la cesta de la compra*/
+  background-color: green;
+  text-emphasis: bold;
+  color: #f8f8f8;
+  text-align: center;
+}
+/*SECCION BLOG*/
+#seccionBlog{
+  margin-right: 5%;
+  margin-left: 5%;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+#seccionBlog,h1{
+  text-align: center;
+  text-size-adjust: 100px;
+  color: black;
+  
+
+}
+
+fieldset{
+  background-size: cover; /* ajusta el tamaño de la imagen al contenedor */
+  background-position: center; /* posiciona la imagen en el centro */
+  background-image: url(image/frutas.jpg);
+  opacity:0.75;
+} 
+fieldset,label{
+  text-decoration-color: #f8f8f8;
+  text-decoration: solid;
+}
+
+input[type=text] {
+  border: 2px solid green;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color:#000
+}
+
+input#crear{
+  font-family: 'Montserrat', sans-serif;
+  background-color: green;
+  color: #f8f8f8;
+  border-radius: 15%;
+  border: green;
+  
+}
+textarea#contenido{
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin-top: 5%;
+}
+
+.articleBox {
+  border-color: green;
+}
+
+
+  
